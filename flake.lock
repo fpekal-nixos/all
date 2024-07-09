@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1720523886,
-        "narHash": "sha256-Q/lky5S1XvH8MGi/syOwefQXVbp3xibgqMXCHs6o1rE=",
+        "lastModified": 1720525878,
+        "narHash": "sha256-HKk7CZZbWc2uISsYCe+rGtMhLWCih7qKV8VnMezoVLQ=",
         "owner": "fpekal-nixos",
         "repo": "autogit",
-        "rev": "25de1944246cb8117712ea3dffc82ee0d21d7171",
+        "rev": "449c539edff651d8fc58d5d564b6ceedad74a3d9",
         "type": "github"
       },
       "original": {
