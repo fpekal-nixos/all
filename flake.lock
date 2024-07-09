@@ -1,8 +1,30 @@
 {
   "nodes": {
+    "autogit": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1720523886,
+        "narHash": "sha256-Q/lky5S1XvH8MGi/syOwefQXVbp3xibgqMXCHs6o1rE=",
+        "owner": "fpekal-nixos",
+        "repo": "autogit",
+        "rev": "25de1944246cb8117712ea3dffc82ee0d21d7171",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal-nixos",
+        "repo": "autogit",
+        "type": "github"
+      }
+    },
     "devShells": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": [
+          "nixpkgs"
+        ]
       },
       "locked": {
         "lastModified": 1720484182,
@@ -36,7 +58,9 @@
     },
     "root": {
       "inputs": {
-        "devShells": "devShells"
+        "autogit": "autogit",
+        "devShells": "devShells",
+        "nixpkgs": "nixpkgs"
       }
     }
   },
