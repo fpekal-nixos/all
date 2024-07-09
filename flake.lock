@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "devShells": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1720484182,
+        "narHash": "sha256-sQmI2JBPl3pjmQV7VDFuT8HMCjxgbkDvKpih8aMbuic=",
+        "owner": "fpekal-nixos",
+        "repo": "devShells",
+        "rev": "0384cdea857615c1429c81f864d6e41823fb344f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal-nixos",
+        "repo": "devShells",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1720418205,
+        "narHash": "sha256-cPJoFPXU44GlhWg4pUk9oUPqurPlCFZ11ZQPk21GTPU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "655a58a72a6601292512670343087c2d75d859c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devShells": "devShells"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
