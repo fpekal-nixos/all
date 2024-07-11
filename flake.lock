@@ -40,18 +40,38 @@
         "type": "github"
       }
     },
+    "launchpad": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1720724801,
+        "narHash": "sha256-0VptOz5kJ4tDA6tYuFsbqRKtx0RdMHlpabwAUg4b9yY=",
+        "owner": "fpekal-nixos",
+        "repo": "launchpad",
+        "rev": "d3f3ef42a6b0478c70933b57855b227c96393047",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal-nixos",
+        "repo": "launchpad",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1720418205,
-        "narHash": "sha256-cPJoFPXU44GlhWg4pUk9oUPqurPlCFZ11ZQPk21GTPU=",
+        "lastModified": 1720553833,
+        "narHash": "sha256-IXMiHQMtdShDXcBW95ctA+m5Oq2kLxnBt7WlMxvDQXA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "655a58a72a6601292512670343087c2d75d859c1",
+        "rev": "249fbde2a178a2ea2638b65b9ecebd531b338cf9",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixos-unstable",
+        "ref": "nixos-24.05",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -60,6 +80,7 @@
       "inputs": {
         "autogit": "autogit",
         "devShells": "devShells",
+        "launchpad": "launchpad",
         "nixpkgs": "nixpkgs"
       }
     }

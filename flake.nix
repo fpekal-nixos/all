@@ -19,9 +19,17 @@
 				nixpkgs.follows = "nixpkgs";
 			};
 		};
+
+		launchpad = {
+			url = "github:fpekal-nixos/launchpad";
+
+			inputs = {
+				nixpkgs.follows = "nixpkgs";
+			};
+		};
   };
 
-  outputs = { self, devShells, autogit, ... }: {
+  outputs = { self, devShells, autogit, launchpad, ... }: {
 		devShells = devShells.devShells;
 
 		overlays = {
@@ -29,7 +37,14 @@
 		};
 
 		nixosModules = {
-			default = autogit.nixosModules.default;
+			default =
+			{ config }:
+			{
+				imports = [
+					autogit.nixosModules.default
+					launchpad.nixosModules.default
+				];
+			};
 		};
   };
 }
