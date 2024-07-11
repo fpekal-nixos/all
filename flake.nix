@@ -2,7 +2,7 @@
   description = "All my flakes added together";
 
   inputs = {
-		nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+		nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
 
 		devShells = {
 			url = "github:fpekal-nixos/devShells";
