@@ -41,17 +41,12 @@
       }
     },
     "launchpad": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
       "locked": {
-        "lastModified": 1720724801,
-        "narHash": "sha256-0VptOz5kJ4tDA6tYuFsbqRKtx0RdMHlpabwAUg4b9yY=",
+        "lastModified": 1720725626,
+        "narHash": "sha256-t+IJXnps1n2wuvS3RacRk3dof4fcno0765OjB8yrr6Q=",
         "owner": "fpekal-nixos",
         "repo": "launchpad",
-        "rev": "d3f3ef42a6b0478c70933b57855b227c96393047",
+        "rev": "4a5ac345bf4c0fbeb0ad12f5148cb02860da3f72",
         "type": "github"
       },
       "original": {

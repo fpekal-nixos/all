@@ -22,10 +22,6 @@
 
 		launchpad = {
 			url = "github:fpekal-nixos/launchpad";
-
-			inputs = {
-				nixpkgs.follows = "nixpkgs";
-			};
 		};
   };
 
