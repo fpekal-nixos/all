@@ -38,7 +38,7 @@
 
 		nixosModules = {
 			default =
-			{ config }:
+			{ ... }:
 			{
 				imports = [
 					autogit.nixosModules.default
