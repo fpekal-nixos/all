@@ -31,6 +31,14 @@
 				nixpkgs.follows = "nixpkgs";
 			};
 		};
+
+		super-cowsay = {
+			url = "github:fpekal-nixos/super-cowsay";
+
+			inputs = {
+				nixpkgs.follows = "nixpkgs";
+			};
+		};
   };
 
   outputs = { self, ... }@inputs: {
@@ -39,7 +47,8 @@
 		overlays = {
 			default = final: prev: (
 				(inputs.autogit.overlays.default final prev) //
-				(inputs.gate.overlays.default final prev)
+				(inputs.gate.overlays.default final prev) //
+				(inputs.super-cowsay.overlays.default final prev)
 			);
 		};
 

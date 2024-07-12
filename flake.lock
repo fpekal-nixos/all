@@ -97,7 +97,28 @@
         "devShells": "devShells",
         "gate": "gate",
         "launchpad": "launchpad",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "super-cowsay": "super-cowsay"
+      }
+    },
+    "super-cowsay": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1720800713,
+        "narHash": "sha256-vhB08e4qsNfOBYhh2tSmNLmJfWGAlqGvKd033Y/E4Ho=",
+        "owner": "fpekal-nixos",
+        "repo": "super-cowsay",
+        "rev": "affdc592c36a3448c639be4939d0e1d229e298e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal-nixos",
+        "repo": "super-cowsay",
+        "type": "github"
       }
     }
   },
