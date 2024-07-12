@@ -23,13 +23,24 @@
 		launchpad = {
 			url = "github:fpekal-nixos/launchpad";
 		};
+
+		gate = {
+			url = "github:fpekal-nixos/gate";
+
+			inputs = {
+				nixpkgs.follows = "nixpkgs";
+			};
+		};
   };
 
-  outputs = { self, devShells, autogit, launchpad, ... }: {
-		devShells = devShells.devShells;
+  outputs = { self, ... }@inputs: {
+		devShells = inputs.devShells.devShells;
 
 		overlays = {
-			default = autogit.overlays.default;
+			default = final: prev: (
+				(inputs.autogit.overlays.default final prev) //
+				(inputs.gate.overlays.default final prev)
+			);
 		};
 
 		nixosModules = {
@@ -37,8 +48,9 @@
 			{ ... }:
 			{
 				imports = [
-					autogit.nixosModules.default
-					launchpad.nixosModules.default
+					inputs.autogit.nixosModules.default
+					inputs.launchpad.nixosModules.default
+					inputs.gate.nixosModules.default
 				];
 			};
 		};

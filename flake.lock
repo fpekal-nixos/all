@@ -40,6 +40,26 @@
         "type": "github"
       }
     },
+    "gate": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1720748325,
+        "narHash": "sha256-oTYEuQdFwiG/+f89uLOE4tWvTi+8VgrORbUNBg+k630=",
+        "owner": "fpekal-nixos",
+        "repo": "gate",
+        "rev": "56c52c3475f3aa5eec3df59546a5ec5670c1c24a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal-nixos",
+        "repo": "gate",
+        "type": "github"
+      }
+    },
     "launchpad": {
       "locked": {
         "lastModified": 1720725626,
@@ -75,6 +95,7 @@
       "inputs": {
         "autogit": "autogit",
         "devShells": "devShells",
+        "gate": "gate",
         "launchpad": "launchpad",
         "nixpkgs": "nixpkgs"
       }
