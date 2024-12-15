@@ -20,6 +20,24 @@
         "type": "github"
       }
     },
+    "client": {
+      "inputs": {
+        "nixpkgs": [
+          "notifications",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-i6JTXR5mmeuTUq1TkLwOtZQaKSrpBNgXU3ROqQ7FEys=",
+        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/client",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/client",
+        "type": "path"
+      }
+    },
     "devShells": {
       "inputs": {
         "nixpkgs": [
@@ -91,6 +109,28 @@
         "type": "github"
       }
     },
+    "notifications": {
+      "inputs": {
+        "client": "client",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "server": "server"
+      },
+      "locked": {
+        "lastModified": 1734299921,
+        "narHash": "sha256-fj+XuALof225ft2Xtef6h/QTGb2xBVUGC+ZaIm96Xvc=",
+        "owner": "fpekal",
+        "repo": "notifications",
+        "rev": "98fa9a8f6e4336752c04d3957e4355bd9193ee1a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fpekal",
+        "repo": "notifications",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "autogit": "autogit",
@@ -98,7 +138,26 @@
         "gate": "gate",
         "launchpad": "launchpad",
         "nixpkgs": "nixpkgs",
+        "notifications": "notifications",
         "super-cowsay": "super-cowsay"
+      }
+    },
+    "server": {
+      "inputs": {
+        "nixpkgs": [
+          "notifications",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-dZTvkNSvI7KVkl8pZ6cZaVFxC1FdMK8UeUDoGMbgQgw=",
+        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/server",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/server",
+        "type": "path"
       }
     },
     "super-cowsay": {

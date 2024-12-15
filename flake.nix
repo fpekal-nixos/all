@@ -39,6 +39,14 @@
 				nixpkgs.follows = "nixpkgs";
 			};
 		};
+
+		notifications = {
+			url = "github:fpekal/notifications";
+
+			inputs = {
+				nixpkgs.follows = "nixpkgs";
+			};
+		};
   };
 
   outputs = { self, ... }@inputs: {
@@ -48,7 +56,8 @@
 			default = final: prev: (
 				(inputs.autogit.overlays.default final prev) //
 				(inputs.gate.overlays.default final prev) //
-				(inputs.super-cowsay.overlays.default final prev)
+				(inputs.super-cowsay.overlays.default final prev) //
+				(inputs.notifications.overlays.default final prev)
 			);
 		};
 
