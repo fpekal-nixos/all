@@ -30,11 +30,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-i6JTXR5mmeuTUq1TkLwOtZQaKSrpBNgXU3ROqQ7FEys=",
-        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/client",
+        "path": "./client",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/client",
+        "path": "./client",
         "type": "path"
       }
     },
@@ -118,11 +118,11 @@
         "server": "server"
       },
       "locked": {
-        "lastModified": 1734299921,
-        "narHash": "sha256-fj+XuALof225ft2Xtef6h/QTGb2xBVUGC+ZaIm96Xvc=",
+        "lastModified": 1734300523,
+        "narHash": "sha256-jh9yqD07cnW1WurZsuNtnM85XsV53oMe0TxDQHhb3ac=",
         "owner": "fpekal",
         "repo": "notifications",
-        "rev": "98fa9a8f6e4336752c04d3957e4355bd9193ee1a",
+        "rev": "69396420138da9a0f4be692e8359e5a73614180f",
         "type": "github"
       },
       "original": {
@@ -152,11 +152,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-dZTvkNSvI7KVkl8pZ6cZaVFxC1FdMK8UeUDoGMbgQgw=",
-        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/server",
+        "path": "./server",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/l4ldiids0774bnpwy2afylm9w65wvcsx-source/server",
+        "path": "./server",
         "type": "path"
       }
     },
