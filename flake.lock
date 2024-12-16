@@ -118,11 +118,11 @@
         "server": "server"
       },
       "locked": {
-        "lastModified": 1734300523,
-        "narHash": "sha256-jh9yqD07cnW1WurZsuNtnM85XsV53oMe0TxDQHhb3ac=",
+        "lastModified": 1734393131,
+        "narHash": "sha256-WNdcvZHhylEbILF7+ssmCx0E45ow61fdw+ABTpzdmbc=",
         "owner": "fpekal",
         "repo": "notifications",
-        "rev": "69396420138da9a0f4be692e8359e5a73614180f",
+        "rev": "8f68f23035d52eafe407aa02e89a6c8fc330eb03",
         "type": "github"
       },
       "original": {
@@ -151,7 +151,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-dZTvkNSvI7KVkl8pZ6cZaVFxC1FdMK8UeUDoGMbgQgw=",
+        "narHash": "sha256-mQI1xMn804rXxLs9FrthDYDP5hVuYzS5+gz6a1pIRig=",
         "path": "./server",
         "type": "path"
       },

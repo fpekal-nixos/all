@@ -69,6 +69,7 @@
 					inputs.autogit.nixosModules.default
 					inputs.launchpad.nixosModules.default
 					inputs.gate.nixosModules.default
+					inputs.notifications.nixosModules.default
 				];
 			};
 		};
