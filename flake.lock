@@ -65,11 +65,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1720748325,
-        "narHash": "sha256-oTYEuQdFwiG/+f89uLOE4tWvTi+8VgrORbUNBg+k630=",
+        "lastModified": 1735729216,
+        "narHash": "sha256-M6aMkaPImUCU1cbwMwizQr4gLjpaI+99V9Vt9m82O6Y=",
         "owner": "fpekal-nixos",
         "repo": "gate",
-        "rev": "56c52c3475f3aa5eec3df59546a5ec5670c1c24a",
+        "rev": "4200bdaf2d5856e5214721161d1895f8598a010a",
         "type": "github"
       },
       "original": {
